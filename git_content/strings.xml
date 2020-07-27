@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">FoodOn</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string-array name="State">
+        <item>Maharashtra</item>
+        <item>Gujarat</item>
+    </string-array>
+
+    <string-array name="shipper">
+        <item>Shipper 1</item>
+        <item>Shipper 2</item>
+    </string-array>
+
+    <string-array name="DishName">
+        <item>Thepla</item>
+        <item>Dal Rice</item>
+        <item>Dhokla</item>
+        <item>Sabji Roti</item>
+        <item>Kadhi Khichdi</item>
+        <item>Puri bhaji</item>
+        <item>Dal Dhokdi</item>
+        <item>Undhiyu</item>
+        <item>Aloo Paratha</item>
+        <item>Patra</item>
+        <item>Khandvi</item>
+        <item>Gulab Jamun</item>
+        <item>SevTomato bhakri</item>
+        <item>Shrikhand</item>
+        <item>Palak Paneer</item>
+        <item>Khulcha</item>
+        <item>Makki di roti</item>
+        <item>Gobi Partha</item>
+        <item>Biryani</item>
+        <item>Rajma</item>
+        <item>Bhindi Fry</item>
+        <item>Dum Biryani</item>
+        <item>Rumali roti</item>
+        <item>Dal Makhni</item>
+        <item>Samosa</item>
+        <item>Kachori</item>
+        <item>Menduwada</item>
+        <item>Pulav</item>
+        <item>Pav Bhaji</item>
+        <item>Misal Pav</item>
+        <item>Mix Vegetable</item>
+        <item>Muffins</item>
+        <item>DalFry JerraRice</item>
+        <item>Bengali sweet</item>
+        <item>Puranpoli</item>
+        <item>Egg Curry</item>
+        <item>Pomfret Fish</item>
+        <item>Egg Bhurji</item>
+        <item>Dum chicken</item>
+        <item>Hyderabadi Chicken Biryni</item>
+    </string-array>
+</resources>
