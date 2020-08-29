@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="my.foodOn.app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".chefFoodPanel.chef_postDish"></activity>
+        <activity android:name=".Delivery_sendotp" />
+        <activity android:name=".DeliveryForgotPassword" />
+        <activity android:name=".DeliveryFoodPanel_BottomNavigation" />
+        <activity android:name=".Delivery_VerifyPhone" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".CustomerFoofPanel_BottomNavigation" />
+        <activity android:name=".sendotp" />
+        <activity android:name=".VerifyPhone" />
+        <activity android:name=".Chefsendotp" />
+        <activity android:name=".ChefForgotPassword" />
+        <activity android:name=".ChefFoodPanel_BottomNavigation" />
+        <activity android:name=".ChefVerifyPhone" />
+        <activity android:name=".Delivery_Registration" />
+        <activity android:name=".Delivery_Loginphone" />
+        <activity android:name=".Delivery_Login" />
+        <activity android:name=".Registration" />
+        <activity android:name=".Loginphone" />
+        <activity android:name=".Login" />
+        <activity android:name=".ChefRegistration" />
+        <activity android:name=".Chefloginphone" />
+        <activity android:name=".Cheflogin" />
+        <activity android:name=".ChooseOne" />
+        <activity android:name=".MainMenu" />
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
