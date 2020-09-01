@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeliveryFoodPanel_BottomNavigation">
+
+    <FrameLayout
+        android:id="@+id/fragment_containerbott"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/delivery_bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/delivery_bottom_navigation"
+        android:backgroundTint="@color/white"
+        android:background="?android:attr/windowBackground"
+        app:itemTextColor="@color/menu_item_color"
+        app:itemIconTint="@color/menu_item_color"/>
+</RelativeLayout>
